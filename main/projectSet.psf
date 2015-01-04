@@ -3,5 +3,6 @@
 <provider id="org.eclipse.egit.core.GitProvider">
 <project reference="1.0,https://github.com/joaobispo/ant-build-for-java-eclipse.git,master,main"/>
 <project reference="1.0,https://github.com/joaobispo/specs-library.git,master,main"/>
+<project reference="1.0,https://github.com/joaobispo/specs-library.git,master,tests"/>
 </provider>
 </psf>
