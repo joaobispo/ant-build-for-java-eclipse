@@ -1,0 +1,2 @@
+include ':specs-library'
+project( ':specs-library' ).projectDir = new File(settingsDir, '../../specs-library/specs-library' )
