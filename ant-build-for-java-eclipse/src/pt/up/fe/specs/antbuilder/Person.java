@@ -1,13 +1,11 @@
 package pt.up.fe.specs.antbuilder;
 
-
 public class Person {
 	private final String name;
 
 	public Person(String name) {
 		this.name = name;
 
-		// System.out.println(new Person2().getVersion());
 	}
 
 	public String getName() {
