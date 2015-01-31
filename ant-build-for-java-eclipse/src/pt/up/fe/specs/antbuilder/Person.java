@@ -1,4 +1,4 @@
-package org.specs.antbuilder;
+package pt.up.fe.specs.antbuilder;
 
 
 public class Person {
