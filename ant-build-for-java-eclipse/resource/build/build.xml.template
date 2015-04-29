@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="main" name="Create Jars for Eclipse Projects and run JUnits">                              
+
+	<target name="main">
+		<ANT_CALL_LIST>
+	</target>
+	
+	<TARGET_LIST>
+	
+</project>

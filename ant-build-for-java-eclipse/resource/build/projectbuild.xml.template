@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<project default="main" name="Create Runnable Jar for Eclipse Project with Jar-in-Jar Loader">                              
+
+	<target name="main" <ALL_COMPILE_TARGETS> >
+	</target>
+	
+	<!-- Build target for project <PROJECT_NAME>  -->
+	<!--
+	<target name="<BUILD_TARGET_NAME>" depends="compile_<PROJECT_NAME>">
+      <jar destfile="<OUTPUT_JAR_FILE>">
+           	<SELF_BIN>
+      		<FILESET>
+      </jar>
+  </target>
+  -->
+  
+
+  <target name="compile_<PROJECT_NAME>" <PROJECT_DEPENDENCIES>>
+    <javac destdir="<BIN_FOLDER>"  source="1.8" target="1.8" encoding="Cp1252"> <!-- includes="**/*.java" -->
+		<SOURCE_PATH>
+		
+        <classpath refid="classpath.base_<PROJECT_NAME>" />
+    </javac>
+
+  </target>
+  <!-- Libraries on which <PROJECT_NAME> depends -->
+  <path id="classpath.base_<PROJECT_NAME>">                                                                                                                           
+        <FILESET> 
+  </path>  	
+	
+	
+</project>

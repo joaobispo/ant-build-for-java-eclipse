@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="<BUILD_TARGET_NAME>" name="Create Runnable Jar for Eclipse Project with Jar-in-Jar Loader">                              
+
+	<target name="<BUILD_TARGET_NAME>" <PROJECT_DEPENDENCIES> >
+	    <jar destfile="<OUTPUT_JAR_FILE>">
+			<FILESET>
+		</jar>
+	</target>
+	
+</project>

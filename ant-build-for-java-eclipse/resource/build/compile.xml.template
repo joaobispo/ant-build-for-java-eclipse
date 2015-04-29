@@ -1,0 +1,15 @@
+  <!-- Libraries on which <PROJECT_NAME> depends -->
+  <path id="classpath.base_<PROJECT_NAME>">                                                                                                                           
+        <FILESET> 
+  </path>  	
+
+  <target name="<COMPILE_TARGET_NAME>" <PROJECT_DEPENDENCIES>>
+    <javac destdir="<BIN_FOLDER>"  source="1.8" target="1.8" encoding="Cp1252" includeantruntime="false"> <!-- includes="**/*.java" -->
+		<SOURCE_PATH>
+		
+        <classpath refid="classpath.base_<PROJECT_NAME>" />
+    </javac>
+
+	<COPY_TASK>
+
+  </target>
